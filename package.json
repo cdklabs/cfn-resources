@@ -1,6 +1,8 @@
 {
   "name": "cfn-resources",
-  "bin": {},
+  "bin": {
+    "cfn-resources": "lib/cli.js"
+  },
   "scripts": {
     "projen": "npx projen",
     "start": "npx projen start",
@@ -28,6 +30,7 @@
     "jest": "^26.6.3",
     "jest-junit": "^12",
     "json-schema": "^0.2.5",
+    "prettier": "^2.2.1",
     "projen": "^0.6.10",
     "standard-version": "^9.0.0",
     "ts-jest": "^26.4.4",
