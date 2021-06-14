@@ -8,6 +8,12 @@ const project = new TypeScriptProject({
   bin: {
     'cfn-resources': 'lib/cli.js',
   },
+  projenUpgradeSecret: 'PROJEN_GITHUB_TOKEN',
+  autoApproveOptions: {
+    allowedUsernames: ['aws-cdk-automation'],
+    secret: 'GITHUB_TOKEN',
+  },
+  autoApproveUpgrades: true,
 });
 
 project.synth();
