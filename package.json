@@ -23,7 +23,7 @@
     "projen": "npx projen"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.3",
+    "@types/jest": "^27.4.0",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
@@ -36,12 +36,11 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.47.6",
+    "projen": "^0.47.12",
     "standard-version": "^9",
     "ts-jest": "^27.1.2",
     "typescript": "^3.9.10"
   },
-  "bundledDependencies": [],
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "version": "0.0.0",
