@@ -9,6 +9,7 @@ const project = new typescript.TypeScriptProject({
   bin: {
     'cfn-resources': 'lib/cli.js',
   },
+  repositoryUrl: 'https://github.com/cdklabs/cfn-resources',
   autoApproveOptions: {
     allowedUsernames: ['cdklabs-automation'],
     secret: 'GITHUB_TOKEN',
