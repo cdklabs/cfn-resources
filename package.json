@@ -1,5 +1,9 @@
 {
   "name": "cfn-resources",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdklabs/cfn-resources"
+  },
   "bin": {
     "cfn-resources": "lib/cli.js"
   },
